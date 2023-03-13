@@ -9,24 +9,13 @@ Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
 
 Title: PIJ Lab Assignment-2
 
-Problem Statement:
-W.a.p that declares two arrays named ‘even’ and ‘odd’. Accept
+Part1. W.a.p that declares two arrays named ‘even’ and ‘odd’. Accept
 numbers from the user and move them to respective arrays depending on
 whether they are even or odd.
 
-The java program consists of 3 distinct classes, i.e. Main.java, Sort.java & Output.java.
+Part2. Implement a java function that finds 2 neighboring numbers in an
+array with the smallest distance to each. The function should return the
+index of the 1st number.
 
-1.Main.java:
-
-The Main class contains the psvm function which has the switch case program of function calls that can be performed by the user within the do while loop. The User can enter the operation to perform, give the required data and get the desired output and can even perform multiple operations using the do while program.
-
-2.Sort.java:
-
-The Calculator class contains all the function definitions of the mathematical operations that we are making available for the user to perform.
-
-3.Output.java
-
-The UserInput class contains functions to take data input from the user and to print the data in an array.
-
-
-Functions from both the Calculator class and userInput class are called in the psvm function using the objects of their respective classes.
+Part3. Write a Java program to convert an array into ArrayList and vice
+versa.
