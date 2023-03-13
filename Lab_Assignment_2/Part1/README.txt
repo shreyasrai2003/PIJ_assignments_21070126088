@@ -18,15 +18,21 @@ The java program consists of 3 distinct classes, i.e. Main.java, Sort.java & Out
 
 1.Main.java:
 
-The Main class contains the psvm function which has the switch case program of function calls that can be performed by the user within the do while loop. The User can enter the operation to perform, give the required data and get the desired output and can even perform multiple operations using the do while program.
+psvm in Main class contains the object declaration of the Sort and Output classes.
+It contains the call to the sorter method of Sort class using the Sort class object.
+The to print the sorted arrays it calls the printSortedArrays method of the Output class to print the sorted arrays.
 
 2.Sort.java:
 
-The Calculator class contains all the function definitions of the mathematical operations that we are making available for the user to perform.
+The Sort class contains the sorter method that takes and input array and sorts the elements into two arrays even and odd
+based on the remainder obtained when dividing the elment by two.
+It then returns the sorted arrays and the variables storing the size of these arrays
+into a 2 dimensional.
 
 3.Output.java
 
-The UserInput class contains functions to take data input from the user and to print the data in an array.
+Output class contains the printSortedArrays method that takes input the two dimensional array returned from the Sort class's sorter method,
+it reads the sorted arrays and count variables and then prints the sorted arrays elements using for loop.
 
 
-Functions from both the Calculator class and userInput class are called in the psvm function using the objects of their respective classes.
+Functions from both the Sort class and Output class are called in the psvm function using the objects of their respective classes.
